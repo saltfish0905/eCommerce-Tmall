@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>account-page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            background-image: linear-gradient(to left, #fd79a8, #a29bfe);
+        }
+        .a{
+            background-color: #fff;
+            width: 350px;
+            height: 500px;
+            position: relative;
+            display: flex;
+            border-radius: 10px;
+            justify-content: center;
+            align-items: center;
+            top: 100px;
+        }
+        .b{
+            width: 300px;
+            height: 450px;
+            overflow: hidden;
+        }
+        .c{
+            font: 900 40px '';
+            margin: 60px 0;
+            text-align: center;
+            letter-spacing: 5px;
+        }
+        .e{
+            width: 100%;
+            margin-bottom: 20px;
+            outline: none;
+            border: 0;
+            padding: 10px;
+            border-bottom: 2px solid rgb(60,60,70);
+            font: 900 16px '';
+        }
+        .f{
+			top:50%;
+            text-align: center;
+			margin: 0 110px;
+            <!--height:50px;-->
+            padding: 23px;
+            font: 20px '';
+            border-radius: 20px;
+            background-image: linear-gradient(to left, #fd79a8, #a29bfe);
+			
+        }
+        .g{
+            margin: 33px;
+        }
+    </style>
+</head>
+<body>
+    <di class="a">
+        <div class="b">	
+            <p class="c">XDMall</p>
+            <div class="d">
+				<form action="/XDMall/admin_login" method="post">
+					<input type="name" class="e" placeholder="account number" name="name">
+					<input type="password" class="e" placeholder="password" name="password">
+					<input type="submit" class="f" value="Login" >
+				</form>
+            </div>
+            
+        </div>
+    </di>
+</body>
+</html>

@@ -1,4 +1,4 @@
-# eCommerce-Tmall
+# eCommerce-XDmall
 Using spring-boot to simulate the entire Tmall site with frontend and backend end separation
 
 
